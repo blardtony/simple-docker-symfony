@@ -2,6 +2,11 @@
 
 ## Init project
 
+Build images
+```bash
+docker compose build
+```
+
 Launch container
 
 ```bash
@@ -18,6 +23,7 @@ Run composer install or composer update
 ```bash
 cd project
 composer update
+yarn install
 ```
 
 To access to your app, go on http://localhost:8000/
