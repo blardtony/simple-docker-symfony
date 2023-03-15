@@ -30,3 +30,5 @@ To access to your app, go on http://localhost:8000/
 
 To access phpmyadmin go on http://localhost:8080/
 Username : root and no password
+
+Add DATABASE_URL="mysql://root:@db:3306/kifekoi?serverVersion=8&charset=utf8mb4" in .env
